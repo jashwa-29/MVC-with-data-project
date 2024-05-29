@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 93%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: blue; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.main-div{
+    width: 800px;
+    height: auto;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.inp-div{
+    display: flex;
+    gap: 6px;
+}
+
+.main--div{
+    margin-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
