@@ -3,7 +3,7 @@ const app = express()
 const mongoose = require('mongoose')
 
  
-const mongodburl = "mongodb://127.0.0.1:27017/withdataproject"
+const mongodburl = "mongodb+srv://jashwa-29:fXxQeI3RwO487uU5@cluster0.0tbvc4t.mongodb.net/withdataproject"
 mongoose.connect(mongodburl, {}).then(()=>{
     console.log("database connected");
 })
